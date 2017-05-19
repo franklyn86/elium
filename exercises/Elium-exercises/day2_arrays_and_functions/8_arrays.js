@@ -28,26 +28,28 @@ var array = [
 'Jarrod'
 ]
 
-console.log(array[4])
-console.log(array.length)
 
+console.log("The fifth student in the array is : " + array[4]);
 
+console.log("\nThera are " + array.length + " students");
+
+console.log("\nStudents\n")	;
 for (var i = 0; i < array.length; i++) {
-	console.log(array[i])
+	console.log(array[i]);
 }
 
 
+console.log("\nPosition of Anja in the array : " + (indexPosition('Anja') + 1));
 
-for (var i = 0; i < array.length; i++) {
-	if (array[i] === 'Anja') {
-		console.log(array[i] + ' is in position ' + i)
-	} else {
-		console.log(array[i])
+
+
+function indexPosition (value){
+	var position;
+	for (var i = 0; i < array.length; i++) {
+		if (array[i] === value) { position = i; }	
 	}
+	return position;
 }
-
-
-
 
 
 

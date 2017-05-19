@@ -10,7 +10,13 @@ that word as a variable.
 */
 
 function stuttering(word, times) {
-	
+	var str = "";
+	for (var i = 0; i < times; i++) {
+		if(i>0) str += " "; 
+		str += word; 
+	}
+
+	return str;
 }
 
 console.log(stuttering('Hi ', 5))

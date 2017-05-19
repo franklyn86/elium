@@ -9,7 +9,8 @@ the player name and wether he's won or lost this turn.
 */
 
 function determineWhosNext(player, won) {
-
+	if (player === "Yasir" && won) return "Simas";
+	else return "Yasir";
 }
 
 console.log(determineWhosNext('Yasir', false)) // Outputs "Simas"

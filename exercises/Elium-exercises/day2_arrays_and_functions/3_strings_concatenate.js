@@ -10,5 +10,5 @@ var c = 'a '
 var d = 'badass '
 var e = 'motherfucker'
 
-console.log(a+b+c+d+e)
+console.log(a + b + c + d +e);
 //outputs Franklyn is a badass motherfucker

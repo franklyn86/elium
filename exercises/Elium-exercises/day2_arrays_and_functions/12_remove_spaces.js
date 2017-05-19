@@ -8,6 +8,13 @@ Remove all spaces from her sentences.
 
 function removeSpaces(str) {
 
+	var strWithoutSpaces = "";
+	for (var i = 0; i < str.length; i++) {
+		 if (str[i] != " ") { strWithoutSpaces += str[i] }		 
+	}
+
+	return strWithoutSpaces;
+
 }
 
 console.log(removeSpaces('Hi      Im  Avery'))
