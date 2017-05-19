@@ -13,6 +13,7 @@ var changeCash = function(money) {
 
 console.log(accObj.cash);
 
+
 changeCash(1); 
 
 console.log(accObj.cash);
@@ -20,3 +21,4 @@ console.log(accObj.cash);
 changeCash(-1);
 
 console.log(accObj.cash);
+

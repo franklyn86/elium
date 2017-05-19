@@ -17,3 +17,7 @@ console.log(accObj.cash);
 accObj.cash--;
 
 console.log(accObj.cash);
+
+/*=======================================*/
+
+console.log(accObj);

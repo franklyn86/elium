@@ -23,6 +23,7 @@ var changeCash = function(money, oldAccount) {
 	return newAccount;
 };
 
+
 // -------------------------------- //
 console.log(accObj0.cash);
 //  changeCash returns a new, updated object
