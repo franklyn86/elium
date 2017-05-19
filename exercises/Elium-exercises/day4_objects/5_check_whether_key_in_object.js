@@ -5,11 +5,12 @@ print out 'true'. If not print out 'false'.
 
 */
 
-var key = 'continent'
+var key = 'name'
 var object = {name: 'Kirill', age: 27, country: 'South-Africa'}
 
-if (key in object) {
-	console.log(true)
+
+if(object[key] != undefined){
+	console.log('true');
 } else {
-	console.log(false)
+	console.log('false');
 }

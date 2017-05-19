@@ -7,11 +7,10 @@ Print out the value of the second key-value pair in 2 different ways.
 
 */
 
-var object = {first: 1, second: 2}
+var object = {first: 1, second: 2};
 
 
-
-console.log(object.second)
+console.log(object.second);
 // outputs 2
-console.log(object['second'])
+console.log(object['second']);
 // outputs 2

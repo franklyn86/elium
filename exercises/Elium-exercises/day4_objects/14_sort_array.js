@@ -16,6 +16,7 @@ var someDevelopers = [
 
 function sortDevelopers(array) {
 
+	return array.sort();
 }
 
-console.log(sortDevelopers(someDevelopers))
+console.log(sortDevelopers(someDevelopers));

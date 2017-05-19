@@ -9,19 +9,20 @@ var object = {one: 1, two: 2, three: 3, four: 4, five: 5}
 
 function mirror(object) {
 
-	var newObject = {}
+	var newObject = {};
 
-	var reversedArrayOfKeys = Object.keys(object).reverse()
+	var reversedArrayOfKeys = Object.keys(object).reverse();
 
-	//[ 'five', 'four', 'three', 'two', 'one' ]
+	console.log(reversedArrayOfKeys);
 
 	for (var i = 0; i < reversedArrayOfKeys.length; i++) {
-		newObject[reversedArrayOfKeys[i]] = object[reversedArrayOfKeys[i]]
+		newObject[reversedArrayOfKeys[i]] = object[reversedArrayOfKeys[i]];
 	}
 
-	return newObject
+	return newObject;
 
 }
 
-console.log(mirror(object))
+console.log(object);
+console.log(mirror(object));
 // outputs { five: 5, four: 4, three: 3, two: 2, one: 1 }

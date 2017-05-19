@@ -21,10 +21,14 @@ var object1 = {name: 'Anja'}
 
 function copyObject(object1) {
 
-	var object = Object.assign({},object1)
+	var newObj = {};
 
-	return object
+	for(key in object1)
+	{
+		newObj[key] = object1[key];
+	}
 
+	return newObj;
 }
 
 object2 = copyObject(object1)

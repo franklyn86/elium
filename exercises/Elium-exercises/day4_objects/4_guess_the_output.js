@@ -10,10 +10,10 @@ var object2 = {name: 'Anja'}
 var object3 = object1
 
 console.log(object1 === object2)
-// outputs false
+// outputs ?? => false
 console.log(object1 === object3)
-// outputs true
+// outputs ?? // true
 
 object1.name = 'Nisha'
 console.log(object3.name)
-// outputs Nisha
+// outputs ?? => Nisha
