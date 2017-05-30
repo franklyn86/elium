@@ -1,0 +1,1 @@
+console.log(student1, student2)

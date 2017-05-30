@@ -1,0 +1,39 @@
+body {
+
+  
+  /*background-image: url('seaImage.jpeg');*/
+  background-image: url('sea-images-1.jpg');
+  /*background-repeat: no-repeat;
+  background-position: center;*/
+  font-family: Helvetica;
+
+  margin-left: 40%;
+  margin-top: 20%;
+}
+
+td {
+  padding: 1em 1.5em;
+  text-align: center;
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+	/*background-color: yellow;*/
+
+}
+
+.xCell{
+	background-color: yellow;
+}
+
+.oCell{
+	background-color: green;
+}
+
+/* css challenge: 
+	make the boxes the same size from the start
+*/
